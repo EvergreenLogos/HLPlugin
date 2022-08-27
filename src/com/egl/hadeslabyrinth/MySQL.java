@@ -29,11 +29,11 @@ import org.yaml.snakeyaml.external.biz.base64Coder.Base64Coder;
 import com.cedarsoftware.util.io.JsonWriter;
 
 public class MySQL {
-    private String host = "localhost";
-    private String port = "3306";
-    private String database = "HadesLabyrinth";
-    private String username = "minecraft";
-    private String password = "2317899208376";
+    private String host = "";
+    private String port = "";
+    private String database = "";
+    private String username = "";
+    private String password = "";
     private Connection con;
 
     private Boolean connected;
