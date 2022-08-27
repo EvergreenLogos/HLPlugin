@@ -1,0 +1,131 @@
+name: HLPlugin
+main: com.nnemo.hadeslabyrinth.HLPlugin
+version: 1.6
+depend: [WorldGuard, WorldEdit, Vault]
+api-version: 1.13
+commands:
+  gimme:
+    description: gimme the thing.
+    usage: /<command>
+    permission: hlp.gimme
+    permission-message: shut up loser.
+  procure:
+    description: get the thing.
+    usage: /<command> <id>
+    permission: hlp.procure
+    permission-message: Nope.
+  lotto:
+    description: lottery control
+    usage: /<command> <subcommands...>
+    permission: hlp.lotto
+    permission-message: You lack permission node hlp.lotto
+  rankup:
+    description: Rankup
+    usage: /<command>
+    permission: hlp.rankup
+    permission-message: You lack permission node hlp.rankup
+  prestige:
+    description: Prestige
+    usage: /<command>
+    permission: hlp.prestige
+    permission-message: You lack permission node hlp.prestige
+  setkitchest:
+    description: Sets the current block to a kit chest.
+    usage: /<command> [chest name] [kit name]
+    permission: hlp.setkitchest
+    permission-message: You lack permission node hlp.setkitchest
+  duel:
+    description: Challenge a player to a duel.
+    usage: /<command> [opponent]
+    permission: hlp.duel
+    permission-message: You lack permission node hlp.duel
+  promote:
+    description: Promote a player.
+    usage: /<command> [player]
+    permission: hlp.promote
+    permission-message: You lack permission node hlp.promote
+  demote:
+    description: Demote a player.
+    usage: /<command> [player]
+    permission: hlp.demote
+    permission-message: You lack permission node hlp.demote
+  sql-reload:
+    description: Reconnect to the database.
+    usage: /<command>
+    permission: hlp.sql-reload
+    permission-message: You lack permission node hlp.sql-reload
+  npc:
+    description: Npcs commands
+    usage: /<command>
+    permission: hlp.npc
+    permission-message: You lack permission node hlp.npc
+  serve-donors:
+    description: Serve all the donors
+    usage: /<command>
+    permission: hlp.serve-donors
+    permission-message: You lack permission node hlp.serve-donors
+  topup:
+    description: Top up a person
+    usage: /<command> <paragons> <player>
+    permission: hlp.topup
+    permission-message: You lack permission node hlp.topup
+  staff:
+    description: Appoint or dismiss staff members
+    usage: /<command> <appoint/dismiss>
+    permission: hlp.staff
+    permission-message: You lack permission node hlp.staff
+  radio:
+    description: Turn the radio on/off
+    usage: /<command>
+    permission: hlp.radio
+    permission-message: You lack permission node hlp.radio
+  setdungeonchest:
+    description: Turn the chest you are looking at into a dungeon chest
+    usage: /<command> <dungeonName>
+    permission: hlp.setdungeonchest
+    permission-message: You lack permission node hlp.setdungeonchest
+  createdungeon:
+    description: Create a new dungeon
+    usage: /<command> <dungeonName>
+    permission: hlp.createdungeon
+    permission-message: You lack permission node hlp.createdungeon
+  refillchests:
+    description: Refill all the chests
+    usage: /<command> <dungeonName>
+    permission: hlp.refillchests
+    permission-message: You lack permission node hlp.refillchests
+  monthlypass:
+    description: Manage the monthly pases
+    usage: /<command> <start/end> <username> <tier>
+    permission: hlp.monthlypass
+    permission-message: You lack permission node hlp.monthlypass
+  playerinfo:
+    description: Check some player's info
+    usage: /<command> <player name>
+    permission: hlp.playerinfo
+    permission-message: You lack permission node hlp.playerinfo
+  bestow:
+    description: Give some player an item
+    usage: /<command> <item id> <amount> <name>
+    permission: hlp.bestow
+    permission-message: You lack permission node hlp.bestow
+  open-inventory:
+    description: Opens a custom inventory to a player
+    usage: /<command> <tag> <player>
+    permission: hlp.open-inventory
+    permission-message: You lack permission node hlp.open-inventory
+  claim:
+    description: Claim a one-time promotion code
+    usage: /<command> <CODE>
+    permission: hlp.claim
+    permission-message: You lack permission node hlp.claim
+  slave:
+    description: Manipulation of slaves
+    usage: /slave <create/summon>
+    permission: hlp.slave
+    permission-message: You lack permission node hlp.slave
+  official:
+    description: Officials
+    usage: /official <create/delete>
+    permission: hlp.official
+    permission-message: You lack permission node hlp.official

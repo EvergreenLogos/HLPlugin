@@ -1,0 +1,2 @@
+Manifest-Version: 1.0
+Class-Path: HLPlugin/json-io-4.10.0.jar ./HLPlugin/json-io-4.10.0.jar json-io-4.10.0.jar ../json-io-4.10.0.jar

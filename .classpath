@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry including="**/*.java" kind="src" output="target/classes" path="src">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="/home/nnemo/workspace/json-io-4.10.0.jar"/>
+	<classpathentry kind="lib" path="/home/nnemo/api/spigot-api-1.14.1-R0.1-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="/home/nnemo/api/Vault.jar"/>
+	<classpathentry kind="lib" path="/home/nnemo/api/worldguard-bukkit-7.0.2.jar"/>
+	<classpathentry kind="lib" path="/home/nnemo/api/worldedit-bukkit-7.1.0.jar"/>
+	<classpathentry kind="lib" path="/home/nnemo/workspace/citizensapi-2.0.27-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="/home/nnemo/Citizens-2.0.27-b2110.jar"/>
+	<classpathentry kind="lib" path="/home/nnemo/workspace/SmartInvs-1.2.7.jar"/>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/nnemo/api/VaultEvents-1.7.1.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
